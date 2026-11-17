@@ -61,8 +61,8 @@ AI-ML-Journey
     └── ML-Engineer
 Progress Tracker
 Week 1
-Day 1 – Python Basics
-Day 2 – Loops and Functions
+Day 1 – Python Basics - Done
+Day 2 – Loops and Functions - Done
 Day 3 – NumPy
 Day 4 – Pandas
 Day 5 – Data Cleaning
