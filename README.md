@@ -62,7 +62,7 @@ AI-ML-Journey
 Progress Tracker
 Week 1
 - [x] Day 1 – Python Basics
-- [x] day 2 – Loops and Functions
+- [x] Day 2 – Loops and Functions
 Day 3 – NumPy
 Day 4 – Pandas
 Day 5 – Data Cleaning
