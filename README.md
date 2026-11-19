@@ -63,7 +63,7 @@ Progress Tracker
 Week 1
 - [x] Day 1 – Python Basics
 - [x] Day 2 – Loops and Functions
-Day 3 – NumPy
+- [x] Day 3 – NumPy
 Day 4 – Pandas
 Day 5 – Data Cleaning
 Day 6 – Data Visualization
