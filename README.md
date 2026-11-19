@@ -64,7 +64,7 @@ Week 1
 - [x] Day 1 – Python Basics
 - [x] Day 2 – Loops and Functions
 - [x] Day 3 – NumPy
-Day 4 – Pandas
+- [x] Day 4 – Pandas
 Day 5 – Data Cleaning
 Day 6 – Data Visualization
 Day 7 – Mini Project
