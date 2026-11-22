@@ -65,8 +65,8 @@ Week 1
 - [x] Day 2 – Loops and Functions
 - [x] Day 3 – NumPy
 - [x] Day 4 – Pandas
-Day 5 – Data Cleaning
-Day 6 – Data Visualization
+- [x] Day 5 – Data Cleaning
+- [x] Day 6 – Data Visualization
 Day 7 – Mini Project
 Projects
 Projects will be added as I progress through the learning plan.
