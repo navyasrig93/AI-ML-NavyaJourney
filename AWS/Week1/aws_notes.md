@@ -1,208 +1,241 @@
 AWS Learning Journey - Week 1
+Student
+Navya
+
 Goal
-Build a strong AWS foundation while preparing for:
+Build a strong foundation in AWS Cloud and prepare for:
 
 AWS Certified Cloud Practitioner
 AWS AI Practitioner
 AWS Machine Learning Engineer Associate
-Week 1 Learning Summary
-During Week 1, I learned the foundational concepts of AWS Cloud, Security, IAM, and Amazon S3.
-
+Week 1 Topics Covered
 Day 1 - Cloud Fundamentals
-Topics Learned
+Concepts Learned
 What is Cloud Computing
 Benefits of Cloud Computing
 What is AWS
 Key Learnings
-Cloud Computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing.
+Cloud Computing provides on-demand access to computing resources over the internet.
 
-Benefits
+Benefits of Cloud Computing
 Cost Savings
 Scalability
-Flexibility
 Reliability
+Flexibility
 Day 2 - AWS Global Infrastructure
-Topics Learned
+Concepts Learned
 AWS Regions
+Physical geographic locations where AWS operates data centers.
+
 Availability Zones
+Independent groups of data centers within a Region.
+
 Edge Locations
-Region
-A physical geographic location where AWS operates data centers.
+Locations used to deliver content closer to end users.
 
-Availability Zone
-One or more isolated data centers within a Region.
-
-Edge Location
-Locations used by AWS services to deliver content closer to users.
-
-Key Learning
-Applications can be deployed across multiple Availability Zones to improve availability and fault tolerance.
-
+Benefits
+High Availability
+Fault Tolerance
+Disaster Recovery
 Day 3 - Shared Responsibility Model
-Topics Learned
-Security of the Cloud
-Security in the Cloud
-AWS Responsibilities
+Concepts Learned
+Security OF the Cloud (AWS Responsibility)
 AWS manages:
 
-Physical Data Centers
+Physical Security
 Hardware
 Networking Infrastructure
-Physical Security
-Customer Responsibilities
+Data Centers
+Security IN the Cloud (Customer Responsibility)
 Customers manage:
 
 Applications
 Data
-IAM Configuration
-User Permissions
+User Access
+IAM Permissions
 Passwords
-Encryption
 Key Learning
-Security in AWS is a shared responsibility between AWS and the customer.
+Cloud security is shared between AWS and the customer.
 
 Day 4 - IAM (Identity and Access Management)
-Topics Learned
-IAM Users
-IAM Groups
-IAM Policies
-Root User
+Concepts Learned
 IAM User
 An individual identity that can access AWS resources.
 
 Examples:
 
-Developers
-Administrators
-Applications
+Developer
+Administrator
+Application User
 IAM Group
-A collection of IAM users with similar permissions.
+A collection of IAM Users sharing the same permissions.
 
 Examples:
 
 Developers
-QA Team
 Administrators
+QA Team
 IAM Policy
-A set of permissions that determines what actions are allowed or denied.
+A set of permissions that controls access to AWS resources.
 
 Examples:
 
 Read S3 Buckets
 Launch EC2 Instances
-Access CloudWatch
+View CloudWatch Logs
 Root User
-The root account has complete administrative access to the AWS account.
+The account owner with unrestricted access to all AWS resources.
 
-Best Practice
+Best Practices
 Enable MFA
-Avoid using Root User for daily work
-Create IAM users for normal access
+Use IAM Users for daily work
+Avoid using Root User regularly
 Day 5 - Amazon S3
-Topics Learned
-S3 Basics
-Buckets
-Objects
-S3 Use Cases
-S3 for AI/ML
 What is Amazon S3?
-Amazon Simple Storage Service (S3) is a scalable object storage service used to store and retrieve data from anywhere.
+Amazon Simple Storage Service (S3) is an object storage service used to store and retrieve data from anywhere.
 
 Key Concepts
 Bucket
-A storage container used to organize objects.
+A logical container used to store objects.
 
 Example:
 
-navya-ml-project-data
+navya-ml-data
 Object
-A file stored within a bucket.
+A file stored inside a bucket.
 
 Examples:
 
-resume.pdf
 customer_data.csv
+resume.pdf
 image.jpg
-Benefits of S3
-High Durability
-Scalability
-Security
-Cost Efficiency
 S3 Use Cases
 Backup and Recovery
-Store backups for disaster recovery.
+Store backup files securely.
 
-Application Data Storage
-Store images, videos, reports, and documents.
+Data Lakes
+Store large datasets for analytics and machine learning.
 
-Big Data Analytics
-Store large datasets for processing and analysis.
+Website Hosting
+Host static websites.
 
-Machine Learning
+AI and Machine Learning
 Store:
 
 Training Data
-Validation Data
-Model Artifacts
-Logs
-Why S3 Matters for AI/ML
-Amazon S3 acts as a centralized data lake for:
-
-Structured Data
-Unstructured Data
-Datasets
 Images
 Videos
-ML Models
-Training Outputs
-Most AWS AI and Machine Learning services integrate directly with S3.
+Model Artifacts
+Why S3 Matters for AI/ML
+Most AWS AI services use S3 for storing datasets and model-related files.
 
+Day 6 - Amazon EC2
+What is Amazon EC2?
+Amazon Elastic Compute Cloud (EC2) provides virtual servers in the cloud that can be launched on demand.
+
+Simple Definition
+EC2 is like renting a computer inside AWS.
+
+Key Concepts
+Instance
+A virtual machine running in AWS.
+
+Security Group
+A virtual firewall that controls inbound and outbound traffic.
+
+Instance Types
+Configurations that define:
+
+CPU
+Memory
+Storage
+Networking Capacity
+Examples:
+
+t2.micro
+t3.micro
+m5.large
+Common EC2 Use Cases
+Web Hosting
+Run websites and web applications.
+
+Backend APIs
+Host REST APIs and microservices.
+
+Databases
+Run database servers.
+
+Machine Learning
+Deploy trained ML models.
+
+Development Environments
+Create test and development servers.
+
+EC2 vs S3
+Amazon EC2	Amazon S3
+Compute Service	Storage Service
+Runs Applications	Stores Files
+Virtual Server	Object Storage
+Processes Data	Stores Data
 AWS Services Learned So Far
 Service	Purpose
 IAM	Identity and Access Management
 S3	Object Storage
-Regions	Geographic Infrastructure
-Availability Zones	High Availability Infrastructure
-Edge Locations	Content Delivery Infrastructure
+EC2	Virtual Servers
+Regions	Geographic AWS Infrastructure
+Availability Zones	Fault-Tolerant Infrastructure
+Edge Locations	Fast Content Delivery
 Cloud Practitioner Progress
 Completed Topics
 Cloud Computing Fundamentals
 AWS Fundamentals
-AWS Regions
+Regions
 Availability Zones
 Edge Locations
 Shared Responsibility Model
 IAM Fundamentals
-Amazon S3 Fundamentals
-Upcoming Topics
+Amazon S3
 Amazon EC2
+Upcoming Topics
 AWS Lambda
 Amazon RDS
-CloudWatch
+Amazon CloudWatch
 Billing and Pricing
 Security Services
+Support Plans
 Week 1 Reflection
 Key Takeaways
 AWS infrastructure is designed for scalability and fault tolerance.
-Security is shared between AWS and customers.
 IAM is the foundation of AWS security.
-S3 is one of the most widely used AWS services.
-Cloud concepts form the foundation for AI, Machine Learning, and modern application development.
+S3 is used for scalable object storage.
+EC2 provides on-demand computing resources.
+Cloud security is a shared responsibility.
+AWS services work together to build modern cloud applications.
 Certification Roadmap
 Current Goal
 AWS Certified Cloud Practitioner
-Future Certifications
+Future Goals
 AWS AI Practitioner
+
 AWS Machine Learning Engineer Associate
+
 Progress Tracker
 Day 1 - Cloud Fundamentals
 Day 2 - Global Infrastructure
 Day 3 - Shared Responsibility Model
 Day 4 - IAM Fundamentals
 Day 5 - Amazon S3
-Week 1 Completion
-AWS Progress: 5 / 5 Topics Completed
+Day 6 - Amazon EC2
+Week 1 Progress
+AWS Learning Progress: 6 / 6 Topics Completed
 
-Cloud Practitioner Readiness: ~50%
+Cloud Practitioner Readiness: ~60%
 
+Next Week Topics
+AWS Lambda
+Amazon RDS
+CloudWatch
+Monitoring
+Logging
+Serverless Computing
 Last Updated: November 2026
