@@ -79,6 +79,7 @@ Day 6 - Exploratory Data Analysis (EDA)
 Day 7 - Week 2 Portfolio Project
 Projects
 Projects will be added as I progress through the learning plan.
+- [x] 1. Employee Analytics Dashboard
 
 Technologies
 Python
