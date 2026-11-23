@@ -1,31 +1,31 @@
 AWS Learning Journey - Week 1
-Student
-Navya
 
 Goal
-Build a strong foundation in AWS Cloud and prepare for:
+Build foundational AWS Cloud knowledge while preparing for:
 
 AWS Certified Cloud Practitioner
 AWS AI Practitioner
 AWS Machine Learning Engineer Associate
-Week 1 Topics Covered
+Week 1 Learning Summary
+This week focused on understanding cloud fundamentals, AWS global infrastructure, security concepts, storage, compute services, and serverless computing.
+
 Day 1 - Cloud Fundamentals
-Concepts Learned
+Topics Learned
 What is Cloud Computing
 Benefits of Cloud Computing
 What is AWS
 Key Learnings
 Cloud Computing provides on-demand access to computing resources over the internet.
 
-Benefits of Cloud Computing
+Benefits
 Cost Savings
 Scalability
 Reliability
 Flexibility
 Day 2 - AWS Global Infrastructure
-Concepts Learned
+Topics Learned
 AWS Regions
-Physical geographic locations where AWS operates data centers.
+Geographic locations where AWS operates data centers.
 
 Availability Zones
 Independent groups of data centers within a Region.
@@ -33,70 +33,58 @@ Independent groups of data centers within a Region.
 Edge Locations
 Locations used to deliver content closer to end users.
 
-Benefits
+Key Learnings
 High Availability
 Fault Tolerance
 Disaster Recovery
+Global Scalability
 Day 3 - Shared Responsibility Model
-Concepts Learned
-Security OF the Cloud (AWS Responsibility)
+Security of the Cloud (AWS Responsibility)
 AWS manages:
 
-Physical Security
 Hardware
 Networking Infrastructure
+Physical Security
 Data Centers
-Security IN the Cloud (Customer Responsibility)
+Global Infrastructure
+Security in the Cloud (Customer Responsibility)
 Customers manage:
 
 Applications
 Data
-User Access
-IAM Permissions
+User Permissions
+IAM Configuration
 Passwords
+Encryption
 Key Learning
-Cloud security is shared between AWS and the customer.
+AWS and customers share security responsibilities.
 
 Day 4 - IAM (Identity and Access Management)
-Concepts Learned
+Topics Learned
 IAM User
-An individual identity that can access AWS resources.
+An individual identity that can access AWS services and resources.
 
-Examples:
-
-Developer
-Administrator
-Application User
 IAM Group
-A collection of IAM Users sharing the same permissions.
+A collection of users sharing similar permissions.
 
-Examples:
-
-Developers
-Administrators
-QA Team
 IAM Policy
-A set of permissions that controls access to AWS resources.
+A set of permissions that determines what actions are allowed or denied.
 
-Examples:
-
-Read S3 Buckets
-Launch EC2 Instances
-View CloudWatch Logs
 Root User
-The account owner with unrestricted access to all AWS resources.
+The account owner with unrestricted access.
 
-Best Practices
+AWS Best Practices
 Enable MFA
-Use IAM Users for daily work
-Avoid using Root User regularly
+Avoid using Root User for daily work
+Follow Least Privilege Principle
+Use IAM Users and Groups
 Day 5 - Amazon S3
 What is Amazon S3?
-Amazon Simple Storage Service (S3) is an object storage service used to store and retrieve data from anywhere.
+Amazon Simple Storage Service (S3) is a highly scalable object storage service.
 
 Key Concepts
 Bucket
-A logical container used to store objects.
+A container used to store objects.
 
 Example:
 
@@ -106,89 +94,125 @@ A file stored inside a bucket.
 
 Examples:
 
-customer_data.csv
+sales.csv
 resume.pdf
 image.jpg
 S3 Use Cases
-Backup and Recovery
-Store backup files securely.
+Backup & Recovery
+Store backups securely.
 
 Data Lakes
-Store large datasets for analytics and machine learning.
+Store large amounts of structured and unstructured data.
 
-Website Hosting
-Host static websites.
+Static Website Hosting
+Host web applications.
 
-AI and Machine Learning
+AI & Machine Learning
 Store:
 
 Training Data
 Images
 Videos
+Feature Files
 Model Artifacts
-Why S3 Matters for AI/ML
-Most AWS AI services use S3 for storing datasets and model-related files.
-
 Day 6 - Amazon EC2
-What is Amazon EC2?
-Amazon Elastic Compute Cloud (EC2) provides virtual servers in the cloud that can be launched on demand.
+What is EC2?
+Amazon Elastic Compute Cloud (EC2) provides virtual servers that can be launched on demand.
 
 Simple Definition
-EC2 is like renting a computer inside AWS.
+A virtual computer running inside AWS.
 
 Key Concepts
 Instance
 A virtual machine running in AWS.
 
 Security Group
-A virtual firewall that controls inbound and outbound traffic.
+A virtual firewall controlling inbound and outbound traffic.
 
 Instance Types
-Configurations that define:
+Different hardware configurations.
 
-CPU
-Memory
-Storage
-Networking Capacity
 Examples:
 
 t2.micro
 t3.micro
 m5.large
-Common EC2 Use Cases
-Web Hosting
-Run websites and web applications.
-
+EC2 Use Cases
+Website Hosting
 Backend APIs
-Host REST APIs and microservices.
-
+Application Servers
 Databases
-Run database servers.
-
-Machine Learning
-Deploy trained ML models.
-
-Development Environments
-Create test and development servers.
-
+Machine Learning Inference
 EC2 vs S3
-Amazon EC2	Amazon S3
+EC2	S3
 Compute Service	Storage Service
 Runs Applications	Stores Files
 Virtual Server	Object Storage
 Processes Data	Stores Data
-AWS Services Learned So Far
+Day 7 - AWS Lambda
+What is AWS Lambda?
+AWS Lambda is a serverless compute service that allows code execution without managing servers.
+
+Key Idea
+EC2 = Manage Servers
+
+Lambda = No Server Management
+AWS automatically handles:
+
+Server Provisioning
+Scaling
+Maintenance
+Infrastructure Management
+Key Concepts
+Serverless
+Developers focus on code while AWS manages the infrastructure.
+
+Event-Driven Computing
+Functions execute when events occur.
+
+Examples:
+
+File uploaded to S3
+API Request
+Database Change
+Scheduled Event
+Lambda Use Cases
+Automated Scheduled Jobs
+Run periodic tasks automatically.
+
+Real-Time Data Processing
+Process incoming data streams instantly.
+
+File Processing
+Resize images or process uploaded files.
+
+AI/ML Automation
+Trigger machine learning workflows and data pipelines.
+
+Backend APIs
+Power lightweight serverless applications.
+
+Lambda vs EC2
+Lambda	EC2
+Serverless	Server-Based
+AWS Manages Infrastructure	User Manages Infrastructure
+Event Driven	Always Running
+Automatic Scaling	Manual Configuration
+Pay Per Execution	Pay for Running Time
+AWS Services Learned During Week 1
 Service	Purpose
-IAM	Identity and Access Management
+IAM	Identity & Access Management
 S3	Object Storage
 EC2	Virtual Servers
-Regions	Geographic AWS Infrastructure
-Availability Zones	Fault-Tolerant Infrastructure
-Edge Locations	Fast Content Delivery
+Lambda	Serverless Computing
+Regions	Global Infrastructure
+Availability Zones	Fault Tolerance
+Edge Locations	Faster Content Delivery
 Cloud Practitioner Progress
 Completed Topics
 Cloud Computing Fundamentals
-AWS Fundamentals
+AWS Overview
+AWS Global Infrastructure
 Regions
 Availability Zones
 Edge Locations
@@ -196,29 +220,36 @@ Shared Responsibility Model
 IAM Fundamentals
 Amazon S3
 Amazon EC2
-Upcoming Topics
 AWS Lambda
+Topics Remaining
 Amazon RDS
 Amazon CloudWatch
-Billing and Pricing
-Security Services
-Support Plans
+AWS Billing & Pricing
+AWS Security Services
+AWS Support Plans
 Week 1 Reflection
 Key Takeaways
-AWS infrastructure is designed for scalability and fault tolerance.
+Cloud
+Understand AWS global infrastructure.
+Understand shared responsibility in cloud security.
+Security
 IAM is the foundation of AWS security.
-S3 is used for scalable object storage.
-EC2 provides on-demand computing resources.
-Cloud security is a shared responsibility.
-AWS services work together to build modern cloud applications.
+Least Privilege is a key security principle.
+Storage
+S3 provides scalable and durable object storage.
+Compute
+EC2 provides virtual servers.
+Lambda provides serverless computing.
+AI/ML Perspective
+S3 stores datasets and model artifacts.
+EC2 hosts applications and ML solutions.
+Lambda automates AI/ML workflows.
 Certification Roadmap
 Current Goal
 AWS Certified Cloud Practitioner
 Future Goals
 AWS AI Practitioner
-
 AWS Machine Learning Engineer Associate
-
 Progress Tracker
 Day 1 - Cloud Fundamentals
 Day 2 - Global Infrastructure
@@ -226,16 +257,10 @@ Day 3 - Shared Responsibility Model
 Day 4 - IAM Fundamentals
 Day 5 - Amazon S3
 Day 6 - Amazon EC2
-Week 1 Progress
-AWS Learning Progress: 6 / 6 Topics Completed
+Day 7 - AWS Lambda
+Week 1 Completion Status
+🏆 Week 1 Successfully Completed
 
-Cloud Practitioner Readiness: ~60%
+AWS Progress
+7 / 7 Core Topics Completed
 
-Next Week Topics
-AWS Lambda
-Amazon RDS
-CloudWatch
-Monitoring
-Logging
-Serverless Computing
-Last Updated: November 2026
