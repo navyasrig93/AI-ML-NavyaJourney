@@ -68,6 +68,15 @@ Week 1
 - [x] Day 5 – Data Cleaning
 - [x] Day 6 – Data Visualization
 - [x] Day 7 – Mini Project
+
+Week 2
+- [x] Day 1 - SQL Fundamentals
+Day 2 - SQL Aggregations
+Day 3 - SQL Joins
+Day 4 - Statistics for Machine Learning
+Day 5 - Probability Basics
+Day 6 - Exploratory Data Analysis (EDA)
+Day 7 - Week 2 Portfolio Project
 Projects
 Projects will be added as I progress through the learning plan.
 
