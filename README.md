@@ -67,7 +67,7 @@ Week 1
 - [x] Day 4 – Pandas
 - [x] Day 5 – Data Cleaning
 - [x] Day 6 – Data Visualization
-Day 7 – Mini Project
+- [x] Day 7 – Mini Project
 Projects
 Projects will be added as I progress through the learning plan.
 
