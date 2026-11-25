@@ -71,7 +71,7 @@ Week 1
 
 Week 2
 - [x] Day 1 - SQL Fundamentals
-Day 2 - SQL Aggregations
+- [x] Day 2 - SQL Aggregations
 Day 3 - SQL Joins
 Day 4 - Statistics for Machine Learning
 Day 5 - Probability Basics
